@@ -3,6 +3,7 @@ stage 'test'
 node {
   try {
     notifyBuild('STARTED - TEST')
+    
 
   } catch (e) {
     // If there was an exception thrown, the build failed
